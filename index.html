@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Cantarell:100,300' rel='stylesheet' type='text/css'> -->
+    <meta name="description" content="AHP, Amodal Human Perception dataset">
+
+    <title>AHP: Amodal Human Perception dataset</title>
+
+    <!-- Buttons -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/buttons/component.css" /> -->
+
+	<link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/side-menu.css">
+    <!--<![endif]-->
+
+<!--     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
+</head>
+
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org/",
+  "@type":"Dataset",
+  "name":"DAVIS: Densely Annotated VIdeo Segmentation 2017",
+  "datePublished":"2017-04-03",
+  "description":"Video object segmentation dataset than contains 150 video sequences. Each sequence contains multiple objects and their high quality segmentation mask in each of the frames.",
+  "url":"https://davischallenge.org/",
+  "license":"http://creativecommons.org/licenses/by-nc/4.0",
+  "sameAs":"https://davischallenge.org/",
+  "keywords":[
+     "segmentation",
+     "video",
+     "video object segmentation"
+  ],
+  "creator":[
+  {
+     "@type":"Person",
+     "url": "http://jponttuset.cat/",
+     "name":"Jordi Pont-Tuset",
+     "email":"davisvideochallenge@gmail.com"
+  },
+  {
+     "@type":"Person",
+     "url": "https://fperazzi.github.io/",
+     "name":"Federico Perazzi",
+     "email":"davisvideochallenge@gmail.com"
+  },
+  {
+     "@type":"Person",
+     "url": "https://sergicaelles.com/",
+     "name":"Sergi Caelles",
+     "email":"davisvideochallenge@gmail.com"
+  }],
+  "distribution":{
+        "@type":"DataDownload",
+        "encodingFormat":"ZIP",
+        "contentUrl":"https://davischallenge.org/davis2017/code.html"
+  },
+  "citation":[{
+    "@type":"CreativeWork",
+    "name":"The 2017 DAVIS Challenge on Video Object Segmentation",
+    "identifier":"https://arxiv.org/abs/1704.00675"
+  },
+  {
+    "@type":"CreativeWork",
+    "name":"A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation",
+    "identifier":"https://ieeexplore.ieee.org/abstract/document/7780454/"
+  }
+
+  ]
+}
+</script>
+
+
+<style type="text/css">
+    /*********************************
+    The list of publication items
+    *********************************/
+    /* The list of items */
+    .biblist { }
+
+    /* The item */
+    .biblist li { }
+
+    /* You can define custom styles for plstyle field here. */
+
+
+    /*************************************
+     The box that contain BibTeX code
+     *************************************/
+    div.noshow { display: none; }
+    div.bibtex {
+        margin-right: 0%;
+        margin-top: 1.2em;
+        margin-bottom: 1.3em;
+        border: 1px solid silver;
+        padding: 0.3em 0.5em;
+        background: #ffffee;
+    }
+    div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; }
+
+
+    .content-subhead{color: black}
+
+    /* custom font */
+    @font-face{
+        font-family: Cantarell;
+        src: url("./fonts/Cantarell-Regular.ttf");
+    }
+    @font-face{
+        font-family: "Cantarell Bold";
+        src: url("./fonts/Cantarell-Bold.ttf");
+    }
+    @font-face{
+        font-family: "Cantarell Italic";
+        src: url("./fonts/Cantarell-Italic.ttf");
+    }
+    @font-face{
+        font-family: "Cantarell BoldItalic";
+        src: url("./fonts/Cantarell-BoldItalic.ttf");
+    }
+</style>
+
+<script type="text/javascript">
+ <!--
+ // Toggle Display of BibTeX
+ function toggleBibtex(articleid) {
+     var bib = document.getElementById('bib_'+articleid);
+     if (bib) {
+         if(bib.className.indexOf('bibtex') != -1) {
+             bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+         }
+     } else {
+         return;
+     }
+ }
+-->
+</script>
+
+
+<body>
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu">
+            <ul class="pure-menu-list">
+                <li style="border-bottom: 1px solid;"><a href="index.html" class="pure-menu-link pure-menu-selected">Home</a></li>
+                <li style="border-bottom: 1px solid;"><a href="index.html" class="pure-menu-link">Github</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <h1>AHP: Amodal Human Perception dataset</h1>
+            <h2>A large-scale integrated human dataset</h2>
+        </div>
+
+        <div class="pure-g" style="margin-left:20px; margin-right:20px; margin-top:20px;">
+            <div class="pure-u-1-6"><img src="images/data_examples/data_example1.png" alt="" style="width:95%"></div>
+            <div class="pure-u-1-6"><img src="images/data_examples/data_example2.png" alt="" style="width:95%"></div>
+            <!-- <div class="pure-u-1-6"><img src="images/introduce_human_deocclusion.jpg" alt="" style="width:40%"></div> -->
+            <div class="pure-u-1-6"><img src="images/data_examples/data_example3.png" alt="" style="width:95%"></div>
+            <div class="pure-u-1-6"><img src="images/data_examples/data_example4.png" alt="" style="width:95%"></div>
+            <div class="pure-u-1-6"><img src="images/data_examples/data_example5.png" alt="" style="width:95%"></div>
+            <div class="pure-u-1-6"><img src="images/data_examples/data_example6.png" alt="" style="width:95%"></div>
+        </div>
+        <div class="content">
+            <div class="pure-u-1-1" style="">
+            <div style="margin-right: 0%;padding: 0.3em 0.5em;border: 2px solid #000000;margin-top: 33px;width:100%;height:100%;background: #eeeeee;">
+                <p style="font-weight:bold;" >
+                The AHP dataset consists of 56,599 images in total which are collected from several large-scale instance
+                segmentation and detection datasets, including COCO, VOC (w/ SBD), LIP, Objects365 and OpenImages. Each
+                image is annotated with a pixel-level segmentation mask of a single integrated human. 
+                </p>
+                <p style="font-weight:bold;margin-top: -15px">
+                The dataset is initially proposed to solve the task of <b style='color:black'>human de-occlusion</b>. We believe our dataset can be
+                leveraged in other human associated tasks and inspires more creative ideas.
+                </p>
+            </div>
+            </div>
+            
+            <h2 class="content-subhead" style="margin-top:30px;margin-bottom:12px">Data Splits</h2>
+            <div class="pure-u-1-1">
+                <ul>
+                    <li><a style="font-size:115%;font-weight:bold">Train</a>: Totally 56,302 images with annotations of integrated humans.</li>
+                    <li><a style="font-size:115%;font-weight:bold">Valid</a>: Totally 297 images of synthesized occlusion cases.</li>
+                    <li><a style="font-size:115%;font-weight:bold">Test</a>: Totally 15 images of artificial occlusion cases.</li>
+                </ul>
+                
+                <p>Since the AHP dataset mainly targets at human de-occlusion. When training, the occlusion cases will be synthesized by occluding 
+                the integrated humans with other instances, e.g. COCO. We have no restrictions on the synthesis algorithms. The validation set contains 891 
+                images with the simplest synthesis technique of pasting instances onto humans. And the validation set is augmented from 297 images 
+                each with three different occluders. Moreover, the test set contains 15 artificial occlusion cases which can muddle through human 
+                visual systems. For more details, please refer to our paper.</p>
+            </div>
+
+            <h2 class="content-subhead" style="margin-bottom:12px;margin-top:30px;">Download</h2>
+            <p>
+                Download the AHP images and annotations from the <a href="https://drive.google.com/file/d/1Pz4nEHgAWyFyTgmK1quRBvKB8BupNj3N/view?usp=sharing" style="color:red;">link</a> on Google Drive.
+            </p>
+
+            <h2 class="content-subhead" style="margin-bottom:12px;margin-top:30px;">Applications</h2>
+            <h3>Human De-occlusion</h3>
+            <div class="pure-g" style="margin-left:20px; margin-right:20px; margin-top:20px;">
+                <div><center><img src="images/introduce_human_deocclusion.jpg" alt="" style="width:65%;vertical-align:middle;" /></center></div>
+            </div>
+            <div style="margin-top:10px;margin-bottom:0px">
+                Human de-occluson aims at the problem of estimating the invisible masks and content for humans. The synthesized
+                occlusion cases based on the AHP dataset have three advantages: 
+                <ul class="pure-u-1-1">
+                <li> the number of humans in AHP is comparatively larger than other amodal perception datasets.
+                <li> the synthesized occlusion cases own amodal segmentation and visual content ground-truths from real-world scenes;
+                <li> the occlusion cases with expected occlusion distribution can be readily obtained;
+                </ul>
+            </div>
+
+
+            <h2 class="content-subhead" style="margin-bottom:12px;margin-top:30px">Publications</h2>
+
+            <div class="pure-g">
+                <div class="pure-u-1-6">
+                    <img class="pure-img-responsive" style="margin-top:5px; width:100%;" src="images/teaser/paper2020.png" alt="Arxiv">
+                </div>
+                <div class="pure-u-5-6">
+                <p style="margin-left:0.6cm;line-height: 1.4em;margin-top:0em;">
+                    Human De-occlusion: Invisible Perception and Recovery for Humans<br>
+                    <a href="https://scholar.google.com/citations?user=8NIZGJcAAAAJ&hl=en" target="_blank"/>Qiang Zhou</a>,
+                    <a href="https://www.linkedin.com/in/shiyin-wang-5a1b7666/?originalSubdomain=cn" target="_blank">Shiyin Wang</a>,
+                    <a href="https://scholar.google.com/citations?user=NfFTKfYAAAAJ&hl=en"target="_blank"/>Yitong Wang</a>,
+                    <a href="https://speedinghzl.github.io/"target="_blank"/>Zilong Huang</a>, and
+                    <a href="http://xinggangw.info/"target="_blank"/>Xinggang Wang</a>
+                    <br>
+                    <i>Arxiv preprint 2021</i><br>
+                    [<a href="files/human_deocclusion-1550-paper.pdf" target="_blank">PDF</a>] [<a href="files/human_deocclusion-1550-supp.pdf" target="_blank">Supplemental</a>] [<a href="javascript:toggleBibtex('humandeocc2020')">BibTex</a>]
+                </p>
+                </div>
+            </div>
+            <div id="bib_humandeocc2020" class="bibtex noshow"><pre>@inproceedings{bib_humandeocc2020,<br/>  author = { Q. Zhou and S. Wang and Y. Wang and Z. Huang and X. Wang}, <br/> title = {Human De-occlusion: Invisible Perception and Recovery for Humans},<br/>  booktitle = {arXiv Preprint 2021},<br/>  year = {2021}<br/>}</pre></div>
+
+            <i>Please cite the relevant papers in your publications if AHP helps your research.</i>
+
+            <h2 class="content-subhead" style="margin-bottom:12px;margin-top:60px;">LICENSE</h2>
+            <p style="margin-top:10px;margin-bottom:30px">
+                The annotations in this dataset belong to the ByteDance Ltd. are licensed under a 
+                <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>.
+                <bold style="color:black; font-size: 110%">The data is released for non-commercial research purpose only.</bold>
+                <br>
+                <p style='font-size:80%;'>The organizers of the dataset as well as their employers make no representations or warranties regarding the Database, including but not limited to warranties of non-infringement or fitness for a particular purpose. Researcher accepts full responsibility for his or her use of the Database and shall defend and indemnify the organizers, against any and all claims arising from Researcher’s use of the Database, including but not limited to Researcher’s use of any copies of copyrighted videos that he or she may create from the Database. Researcher may provide research associates and colleagues with access to the Database provided that they first agree to be bound by these terms and conditions. The organizers reserve the right to terminate Researcher’s access to the Database at any time. If Researcher is employed by a for-profit, commercial entity, Researcher’s employer shall also be bound by these terms and conditions, and Researcher hereby represents that he or she is fully authorized to enter into this agreement on behalf of such employer.</p>
+            </p>
+
+            <hr>
+            <br>
+            <div align='center'>
+            <p style='font-size:80%;'>The theme of the website is inherited from <a href="https://davischallenge.org/index.html">DAVIS</a>.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="js/ui.js"></script>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+//<![CDATA[
+var sc_project=11310740; 
+var sc_invisible=1; 
+var sc_security="0e2f84a6"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter_xhtml.js'></"+"script>");
+//]]>
+</script>
+<noscript><div class="statcounter"><a title="website
+statistics" href="http://statcounter.com/"
+class="statcounter"><img class="statcounter"
+src="//c.statcounter.com/11310740/0/0e2f84a6/1/"
+alt="website statistics" /></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+</body>
+</html>

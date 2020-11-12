@@ -1,0 +1,35 @@
+
+pre.matlab-code { 
+    background-color: #272822; 
+    color: #f8f8f2; 
+    line-height: 1.5;
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    font-size: 11pt;
+    direction: ltr;
+    text-align: left;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+
+    border-radius: 0.3em;
+    margin: .5em 0;
+    overflow: auto;
+    padding: 1em;
+}
+
+pre .matlab-keyword, code .matlab-keyword {color: #66d9ef; font-weight: bold;}
+pre .matlab-string,  code .matlab-string  {color: #a6e22e;}
+pre .matlab-number,  code .matlab-number  {color: #ae81ff;}
+pre .matlab-bracket, code .matlab-bracket {color: #f92672;}
+pre .matlab-comment, code .matlab-comment {color: slategray;}
+pre .matlab-comment span, code .matlab-comment span {color: slategray; font-weight: normal;}

@@ -1,0 +1,6 @@
+We present the 2019 DAVIS Challenge on Video Object Segmentation, a public competition designed for the task of video object segmentation.
+In addition to the original semi-supervised track and the interactive track introduced in the previous edition, a new unsupervised
+multi-object track will be featured this year. In the newly introduced track, participants are asked to provide non-overlapping
+object proposals along with their id for each frame of a video sequence (i.e. video object proposals), without any human supervision.
+In order to do so, we have re-annotated the training and validation sets of DAVIS 2017 in a concise way that facilitates the unsupervised
+track, and created new test-dev and test-challenge sets for the competition.

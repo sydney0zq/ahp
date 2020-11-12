@@ -1,0 +1,172 @@
+.blue {
+  background: #3498db;
+}
+
+.purple {
+  background: #9b59b6;
+}
+
+.navy {
+  background: #34495e;
+}
+
+.green {
+  background: #2ecc71;
+}
+
+.red {
+  background: #e74c3c;
+}
+
+.orange {
+  background: #f39c12;
+}
+
+.cs335, .cs426, .md303, .md352, .md313, .cs240 {
+  font-weight: 300;
+  cursor: pointer;
+}
+
+
+table {
+  text-align: center;  
+}
+table tr:nth-child(2n) {
+  background: #eff0f1;
+}
+table tr:nth-child(2n+3) {
+  background: #fff;
+}
+table th, table td {
+  padding: 0.35em;
+}
+
+
+.seq_header, .sequences, .semisup, .unsup, .preprop, .semi2017, .unsup2017, .measures, .over, .under{
+  text-transform: capitalize;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.sequences, .seq_header, .measures{
+    border-right: 3px solid white;
+}
+
+.elements {
+  font-family: "Courier New", Courier, monospace;
+  font-size:80%;
+  text-align:right;
+}
+
+.highlight {
+  font-family: "Courier New", Courier, monospace;
+  font-size:80%;
+  text-align:right;
+  font-weight: bold;
+}
+
+.semisup {
+  color: #ef1111;
+  background: #a1a1a1;
+}
+
+.over {
+  color: #efefef;
+  background: #a1a1a1;
+}
+
+.under {
+  color: #1111ef;
+  background: #a1a1a1;
+}
+
+.preprop {
+  color: #1111ef;
+  background: #a1a1a1;
+}
+
+
+.unsup2017 {
+  color: #11ef11;
+  background: #a1a1a1;
+}
+
+.unsup {
+  color: #11ef11;
+  background: #a1a1a1;
+}
+
+.seq_header {
+  color: #efefef;
+  background: #a1a1a1;
+}
+
+.semi2017 {
+  color: #ef1111;
+  background: #a1a1a1;
+}
+
+
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+/*[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+  -moz-transition: ease 0.5s all;
+  -o-transition: ease 0.5s all;
+  -webkit-transition: ease 0.5s all;
+  transition: ease 0.5s all;
+}*/
+
+/* Position tooltip above the element */
+/*[data-tooltip]:before {
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 7px;
+  width: 160px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background-color: black;
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}*/
+
+/* Triangle hack to make tooltip look like a speech bubble */
+/*[data-tooltip]:after {
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid black;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}*/
+
+/* Show tooltip content on hover */
+/*[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  bottom: 90%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}*/
