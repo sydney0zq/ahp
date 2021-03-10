@@ -77,7 +77,6 @@
 </style>
 
 <script type="text/javascript">
- <!--
  // Toggle Display of BibTeX
  function toggleBibtex(articleid) {
      var bib = document.getElementById('bib_'+articleid);
@@ -89,7 +88,6 @@
          return;
      }
  }
--->
 </script>
 
 
@@ -146,19 +144,19 @@
                 <ul>
                     <li><a style="font-size:115%;font-weight:bold">Train</a>: Totally 56,302 images with annotations of integrated humans.</li>
                     <li><a style="font-size:115%;font-weight:bold">Valid</a>: Totally 297 images of synthesized occlusion cases.</li>
-                    <li><a style="font-size:115%;font-weight:bold">Test</a>: Totally 15 images of artificial occlusion cases.</li>
+                    <li><a style="font-size:115%;font-weight:bold">Test</a>: Totally 56 images of artificial occlusion cases.</li>
                 </ul>
                 
                 <p>Since the AHP dataset mainly targets at human de-occlusion. When training, the occlusion cases will be synthesized by occluding 
                 the integrated humans with other instances, e.g. COCO. We have no restrictions on the synthesis algorithms. The validation set contains 891 
                 images with the simplest synthesis technique of pasting instances onto humans. And the validation set is augmented from 297 images 
-                each with three different occluders. Moreover, the test set contains 15 artificial occlusion cases which can muddle through human 
+                each with three different occluders. Moreover, the test set contains 56 artificial occlusion cases which can muddle through human 
                 visual systems. For more details, please refer to our paper.</p>
             </div>
 
             <h2 class="content-subhead" style="margin-bottom:12px;margin-top:30px;">Download</h2>
             <p>
-                Download the AHP images and annotations from the <a href="https://drive.google.com/file/d/1Pz4nEHgAWyFyTgmK1quRBvKB8BupNj3N/view?usp=sharing" style="color:red;">link</a> on Google Drive.
+                Download the AHP images and annotations from <a href="https://drive.google.com/file/d/1rPadar5swN_e-4Qe3VWafHjgtT0s4yc6/view?usp=sharing" style="color:red;">Google Drive</a> or <a href="https://pan.baidu.com/s/1G4tU6mkZAOGwpQggXGRKhw" style="color:red;">BaiduYun(password: trbr)</a>.
             </p>
 
             <h2 class="content-subhead" style="margin-bottom:12px;margin-top:30px;">Applications</h2>
@@ -172,7 +170,7 @@
                 <ul class="pure-u-1-1">
                 <li> the number of humans in AHP is comparatively larger than other amodal perception datasets.
                 <li> the synthesized occlusion cases own amodal segmentation and visual content ground-truths from real-world scenes;
-                <li> the occlusion cases with expected occlusion distribution can be readily obtained;
+                <li> the occlusion cases with expected occlusion distribution can be readily obtained.
                 </ul>
             </div>
 
@@ -192,13 +190,14 @@
                     <a href="https://speedinghzl.github.io/"target="_blank"/>Zilong Huang</a>, and
                     <a href="http://xinggangw.info/"target="_blank"/>Xinggang Wang</a>
                     <br>
-                    <i>Arxiv preprint 2021</i><br>
-                    [<a href="files/human_deocclusion-1550-paper.pdf" target="_blank">PDF</a>] [<a href="files/human_deocclusion-1550-supp.pdf" target="_blank">Supplemental</a>] [<a href="javascript:toggleBibtex('humandeocc2020')">BibTex</a>]
+                    <i>Computer Vision and Pattern Recognition (CVPR) 2021</i><br>
+                    [<a href="files/human_deocclusion-cvpr2021.pdf" target="_blank">PDF</a>] [<a href="javascript:toggleBibtex('humandeocc2021')">BibTex</a>]
                 </p>
                 </div>
             </div>
-            <div id="bib_humandeocc2020" class="bibtex noshow"><pre>@inproceedings{bib_humandeocc2020,<br/>  author = { Q. Zhou and S. Wang and Y. Wang and Z. Huang and X. Wang}, <br/> title = {Human De-occlusion: Invisible Perception and Recovery for Humans},<br/>  booktitle = {arXiv Preprint 2021},<br/>  year = {2021}<br/>}</pre></div>
-
+            <div id="humandeocc2021" class="bibtex noshow">
+                <pre>@inproceedings{bib_humandeocc2021,<br/>  author = { Q. Zhou and S. Wang and Y. Wang and Z. Huang and X. Wang}, <br/> title = {Human De-occlusion: Invisible Perception and Recovery for Humans},<br/>  booktitle = {Computer Vision and Pattern Recognition (CVPR)},<br/>  year = {2021}<br/>}</pre>
+            </div>
             <i>Please cite the relevant papers in your publications if AHP helps your research.</i>
 
             <h2 class="content-subhead" style="margin-bottom:12px;margin-top:60px;">LICENSE</h2>
